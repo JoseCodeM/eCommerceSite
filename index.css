@@ -2,19 +2,24 @@
     padding: 0;
     margin: 0;
     overflow: hidden;
+    
 }
+
+/* hero image */
 .heroImage{
  background-image: url("photos/pokeforest.jpeg");
- /* height: 100%; */
+
  background-size: cover;
  background-position: center;
- min-height: 950px;
- display: flex;
- justify-content: center;
- align-items: center;
- text-align: center;
+ height: 100vh;
 
- 
+
+ display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+
 }
 
 #heroTitle{
@@ -23,8 +28,10 @@ color: white;
 font-family: 'Josefin Sans', sans-serif;
 line-height: 1.1;
 
+
 }
 
+/* enter button */
 #enterButton{
     
     color: #fcd52c;
@@ -35,3 +42,4 @@ line-height: 1.1;
 #enterButton:hover {
     text-decoration: underline;
   }
+

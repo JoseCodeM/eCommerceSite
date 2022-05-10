@@ -1,0 +1,118 @@
+body {
+	margin: 0 auto;
+	width: 90%;
+	max-width: 1240px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #305439;
+}
+
+/* NAV BAR */
+
+/* Add a green background color to the top navigation */
+.topnav {
+	background-color: #132f13;
+	overflow: hidden;
+    
+	
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+	float: right;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 25px;
+
+	
+  }
+  #logoButton{
+	font-family: 'Josefin Sans', sans-serif;  
+	font-size: 35px;
+	float: left;
+	  position: relative;
+	  left: 40%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: #132f13;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+	background-color: #04AA6D;
+	color: white;
+  }
+
+
+
+  /* Form */
+form {
+    width: 110px;
+    margin-left: 50vh;
+    padding-top: 12vh;
+    margin-bottom: 12vh;
+    font-family: 'Josefin Sans', sans-serif;  
+    color: #ddd;
+  }
+  label{
+      margin-top: 10px;
+  }
+  
+  /*  text field box properties */
+  input,
+  textarea {
+    height: 40px;
+    width: 400px;
+    padding-left: 10px;
+    font-family: 'Josefin Sans', sans-serif;  
+    font-size: 15px;
+    background-color: white;
+  }
+  
+  /* makes comment box taller */
+  #info5 {
+    height: 100px;
+  }
+  
+  #sbmt {
+    color: white;
+    height: 40px;
+    width: 410px;
+    text-align: center;
+    margin-left: 0px;
+    background-color:  #132f13;
+  }
+  
+
+
+
+/* FOOTER */
+footer {
+    position: relative;
+   float: right;
+    text-align: right;
+    margin-top: 100px;
+    color:white 
+  
+  }
+  
+  footer li {
+  
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    color:white 
+  }
+  
+  footer a {
+    margin-left: 0px;
+    text-decoration: none;
+    color:white;
+    font-size: 35px;
+  }
+  
+  
